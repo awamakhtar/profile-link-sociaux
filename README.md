@@ -4,8 +4,6 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-
 ## À propos
  Ce défis a pour objectif de reproduire ce profile de liens sociaux
  ## Prérequis
