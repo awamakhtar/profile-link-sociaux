@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..600;1,14..32,700..700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      padding: 3px;
+      margin: 3px;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      
+    }
+    body{
+      background-color:  hsl(0, 0%, 8%);
+      
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content{
+      background-color:  hsl(0, 0%, 12%);
+      width: 350px;
+      height: 500px;
+      
+    }
+    .profile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      
+    }
+    .profile img{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    .profile h1.name{
+        color: hsl(0, 0%, 100%);
+        font-size: 15px;
+    }
+    .profile p.location{
+      color: #036989;
+    }
+    .profile p.bio{
+      color: hsl(0, 0%, 100%);
+      font-size: 12px;
+    }
+    .social-link{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+    }
+    .social-link .btn{
+      width: 85%;
+      height: 40px;
+      border-radius:  5px;
+      color:hsl(0, 0%, 100%) ;
+      background-color: hsl(0, 0%, 20%);
+      border:none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-link a{
+      text-decoration: none;
+      text-align: center;
+    
+    }
+    .social-link .btn:hover{
+      background-color:#036989 ;
+    }
+    .attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%); }
+    .attribution a { color: #036989 ; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+      <div class="content">
+          <div class="profile">
+              <img src="./assets/images/profile-pic.png" alt="Jessica Randall">
+              <h1 class="name">Awa Makhtar Sylla</h1>
+              <p class="location">Sénégal, Saint Louis</p>
+              <p class="bio">"Développeuse Full Stack et Passionnée de Design."</p>
+          </div>
+
+          <div class="social-link">
+              <a  href="https://github.com/awamakhtar" class="btn" target="_blank">GitHub</a>
+              <a href="https://www.frontendmentor.io/profile/awamakhtar" class="btn" target="_blank">Frontend Mentor</a>
+              <a href="https://www.linkedin.com/in/awa-makhtar-sylla-2b6394188/" class="btn" target="_blank">LinkedIn</a>
+              <a href="https://www.facebook.com/profile.php?id=100005404278344"class="btn" target="_blank">Facebook</a>
+              <a href="https://www.instagram.com/awasyllamakhtar/" class="btn" target="_blank">Instagram</a>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Awa Makhtar Sylla</a>.
+  </div>
+</body>
+</html>
