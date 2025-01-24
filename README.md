@@ -13,5 +13,5 @@
  les contributions sont les bienvenu
  ## Contact
  - Awa Sylla - awamakhtarsylla@gmail.com
- - lien du deploiement:
- - lien github
+ - lien du deploiement: https://profile-link-sociaux.vercel.app/
+ - lien github: https://github.com/awamakhtar/profile-link-sociaux
